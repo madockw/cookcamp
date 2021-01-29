@@ -1,0 +1,235 @@
+body{
+  background-color: #f5f5dd;
+  margin: 0;
+  user-select: none;
+  min-width: 960px;
+}
+header{
+  border-bottom: 1px solid #cccccc;
+  background-color: #ffffff;
+  color: #664433;
+  padding-top: 10px;
+}
+.centersec1{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+.search{
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.logoul{
+  display: flex;
+}
+.logoli{
+  list-style-type: none;
+  flex: 1;
+  text-align: center;
+  position: relative;
+}
+.logoul .logoli + .logoli{
+  border-left: 1px solid #cccccc;
+}
+.logoli a{
+  color: #664433;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.logoli a::after{
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 2px;
+  background: #664433;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: 0.3s;
+}
+.logoli a:hover::after{
+  transform: scale(1, 1);
+}
+.mainsec{
+  text-align: center;
+}
+.mainview{
+  width: 960px;
+}
+.centersec2{
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+}
+.txleft{
+  text-align: left;
+}
+.three div{
+  background-color: #ffffff;
+}
+.left{
+  flex: 4;
+  margin: 15px 0;
+}
+.center{
+  flex: 10;
+  margin: 15px;
+}
+.right{
+  flex: 3;
+  margin: 15px 0;
+}
+h1{
+  background-color: #99cc33;
+  border-radius: 30px;
+  color: #ffffff;
+  width: 95%;
+  margin: 12px auto;
+}
+h1 img{
+  width: 14px;
+  height: 18px;
+  vertical-align: middle;
+  padding: 8px 8px 8px 16px;
+}
+.left div{
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.leftul{
+  list-style-image: url(img/icon/arrow.png);
+}
+.leftli{
+  line-height: 36px;
+  position: relative;
+}
+.leftli a{
+  color: #000000;
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.leftli:hover{
+  color: #ff9900;
+}
+.leftul .leftli + .leftli{
+  border-top: 1px dotted #cccccc;
+}
+.centertop{
+  padding-top: 10px;
+  margin-top: 10px;
+}
+.newbox{
+  margin: 0 auto;
+  padding: 0;
+  width: 500px;
+}
+.imgbox{
+  display: inline-block;
+  font-size: 8px;
+  text-align: center;
+  width: 95px;
+}
+.wasyokubox{
+  position: relative;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
+.size1{
+  width: 500px;
+  height: 370px;
+}
+.osusume{
+  height: 500px;
+}
+.size2{
+  width: 500px;
+  height: 220px;
+}
+.waimg{
+  position: absolute;
+  left: 0;
+}
+.waimg img{
+  width: 230px;
+  height: 150px;
+}
+.pra{
+  width: 250px;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+}
+.next{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  list-style-image: url(img/icon/arrow.png);
+  margin: 0 10px 10px;
+  font-size: 14px;
+}
+.next a{
+  color: #000000;
+  text-decoration: none;
+}
+.next a:hover{
+  color: #ff9900;
+}
+h2{
+  color: #664433;
+  margin: 0;
+  font-size: 16px;
+}
+.adv{
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 10px;
+  padding-top: 10px;
+  position: relative;
+}
+.adv:hover{
+  filter: blur(2px) grayscale(80%);
+  transition: 0.3s;
+}
+.adv a{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.CC{
+  background-image: url(img/contents/right1.png);
+}
+.webD{
+  background-image: url(img/contents/right2.png);
+}
+footer{
+  border-top: 1px solid #cccccc;
+  color: #000000;
+  background-color: #ffffff;
+  padding: 16px 0;
+}
+.centersec3{
+  width: 710px;
+  margin: 0 auto;
+  position: relative;
+  font-size: 13px;
+}
+.maruc{
+  color: #c0c0c0;
+  text-align: center;
+  width: 100%;
+}
